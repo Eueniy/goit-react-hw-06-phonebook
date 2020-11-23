@@ -1,0 +1,40 @@
+.contactList {
+  width: 600px;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.contactListItem {
+  display: flex;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
+  border: 0;
+  width: 400px;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms ease-in-out;
+}
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 250ms ease-in-out;
+}

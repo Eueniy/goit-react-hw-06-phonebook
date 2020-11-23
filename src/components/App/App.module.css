@@ -1,0 +1,43 @@
+.container {
+  margin-left: 20px;
+}
+
+.logo {
+  font-size: 48px;
+  color: rgb(93, 128, 243);
+  font-weight: 700;
+  width: 300px;
+}
+
+.appear {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.appearActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+}

@@ -1,0 +1,9 @@
+.filter {
+  position: relative;
+  box-sizing: border-box;
+  width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 4px 1px rgba(0, 0, 0, 0.4);
+}
